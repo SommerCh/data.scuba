@@ -1,0 +1,47 @@
+#root {
+  margin: 0;
+  font-family: sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: white
+}
+
+li link:hover {
+  color: black
+}
+
+.back {
+  filter: opacity(50%);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav {
+  color: white
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete {
+  cursor: pointer;
+  width: 7%;
+  margin-left: 20px;
+}
